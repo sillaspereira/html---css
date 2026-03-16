@@ -1,0 +1,15 @@
+Seletor: Indica quais elementos HTML serão afetados (ex: h1, .minha-classe, #meu-id).
+
+Regras: As regras @ em CSS são instruções especiais iniciadas por @ (como @media, @import ou @keyframes), que criam blocos de código com sintaxe própria para importar estilos, aplicar condicionais ou definir animações, funcionando como formas avançadas de configurar o CSS de maneira mais poderosa, flexível, modular, responsiva e reutilizável, indo além das regras básicas de seletores e propriedades.
+
+Cores primárias: as cores primárias são Vermelho, Amarelo e Azul.
+# as cores tem uma certa armônia. As cores primárias tem uma armônia grosseira, ela não fica tão bonita na tela. Mas as cores primárias são importantes pra gente poder representar as outras cores.
+
+Cores secundárias: as cores secundárias são Verde, Laranja e Roxo.
+# também são bem grosseiros, duros vamos dizer assim de se trabalhar.
+
+Cores terciárias: as cores terciárias são todas as outras que são misturas das cores primárias e secundárias.
+# Sempre que vocês forem dar um nome para uma cor terciária, você sempre vai colocar o nome da cor primária antes e depois o nome da cor secundária. Toda cor dita terciária está entre a cor primaria e terciárias. Então você sempre vai colocar o nome da cor primaria e depois o nome da cor secundária. Exemplo amarelo-esverdeado
+
+Palheta de cores: 3 a 5 ou na média de 4 cores. Cores complementares são cores que contrastam com ambas as cores, são cores opostas no círculo cromático. Cores análogas são cores que possui um tom parecido no círculo cromático, essas cores são as cores vizinhas da cor principal em um círculo cromático.
+Cor análoga e complementar: são cores que estão ao redor da cor principal e a cor complementar é a cor que contrasta com a cor princiapl, ou seja, a cor oposta a cor principal em um círculo cromático.

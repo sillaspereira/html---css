@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: dimgray;
+                margin: 0px;
+            }
+
+            header {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+            }
+
+            h1 {
+                box-shadow: 1px 1px 9px black;
+            }
+
+            nav {
+                background-color: rgb(102, 102, 102);
+                padding: 3px;
+                /* deslocamento horizontal, vertical, espalhamento e sombra */
+                box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.493);
+            }
+
+            nav > a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+
+            nav > a:hover {
+                text-decoration: underline;
+            }
+
+            main {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 10px 0px;
+                box-shadow: 4px 4px 9px 0px black;
+            }
+
+            article {
+                background-color: lightgray;
+                padding: 5px;
+            }
+
+            article > aside {
+                background-color: rgb(165, 165, 165);
+            }
+
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 4px;
+                margin: 0px;
+            }
+
+            footer > p {
+                margin: 0;
+            }
+
+            div#bola {
+                height: 100px;
+                width: 100px;
+                background-color: white;
+                margin: 10px;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- tags de agrupamento -->
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+                <p>Esportes Política Tecnologia</p>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Software é o conjunto de instruções e programas que fazem os computadores e dispositivos funcionarem. Diferente do hardware, que é a parte física como processadores e telas, o software é imaterial e pode ser alterado ou atualizado facilmente. Existem dois tipos principais: o de sistema, como o Windows ou Linux, que gerencia o hardware; e o de aplicação, como editores de texto ou redes sociais, que atendem necessidades específicas dos usuários. Graças ao software, transformamos ideias em ações digitais, impulsionando inovações em áreas como medicina, entretenimento e negócios.</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+
+                <section>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido pelo curso em vídeo</p>
+        </footer>
+        <div id="bola"></div>
+    </body>
+</html>
